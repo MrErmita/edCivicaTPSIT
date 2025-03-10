@@ -1,0 +1,139 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #2a2a2a, #1e1e1e);
+  color: white;
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+.container {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(10px);
+  text-align: center;
+  width: 90%;
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+h1 {
+  font-size: 32px;
+  margin-bottom: 1.5rem;
+  color: #ffd700;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+button, .salva, .button {
+  margin-top: 10px;
+  padding: 10px;
+  width: 100%;
+  background-color: #ffd700;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out, background-color 0.3s ease;
+  color: #333;
+}
+
+button:hover, .salva:hover, .button:hover {
+  transform: scale(1.05);
+  background-color: #6a0dad;
+  color: white;
+}
+
+button:active, .salva:active, .button:active {
+  background-color: #5a0a9d;
+  border: 3px solid white;
+}
+
+canvas {
+  margin-top: 20px;
+}
+
+.chart-legend {
+  color: white !important;
+}
+
+.logout {
+  margin-bottom: 30px;
+  margin-top: -20px;
+  width: 50%;
+  background-color: #ff0000;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.logout:hover {
+  background-color: #cc0000;
+}
+
+#ob {
+  margin-bottom: 10px;
+}
+
+.quick {
+  width: 45%;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1.5rem;
+}
+
+table th, table td {
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+}
+
+table th {
+  background-color: #6a0dad;
+  color: #fff;
+}
+
+table tr:nth-child(even) {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+table tr:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.message {
+  margin-top: 1rem;
+  color: #ff0000;
+  font-size: 0.9rem;
+}
+
+
+a {
+  color: #ffd700;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #6a0dad;
+}
