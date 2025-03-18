@@ -28,7 +28,7 @@ Progetto per l'educazione civica e TPSIT, sviluppato con PHP, SQL e tecnologie w
 1. Clona il repository:
    
 
-sh
+```sh
    git clone https://github.com/MrErmita/edCivicaTPSIT.git
 
 
