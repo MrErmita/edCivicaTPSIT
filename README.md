@@ -29,7 +29,7 @@ Progetto per l'educazione civica e TPSIT, sviluppato con PHP, SQL e tecnologie w
    
 
 ```sh
-   git clone https://github.com/MrErmita/edCivicaTPSIT.git```
+   git clone https://github.com/MrErmita/edCivicaTPSIT.git
 
 
 2. Importa il database MySQL usando il file database.sql fornito.
