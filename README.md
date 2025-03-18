@@ -5,6 +5,9 @@
 ![HTML](https://img.shields.io/badge/HTML-5-red?logo=html5)
 ![CSS](https://img.shields.io/badge/CSS-3-blue?logo=css3)
 ![JS](https://img.shields.io/badge/JavaScript-ES6-yellow?logo=javascript)
+![Repo Size](https://img.shields.io/github/repo-size/MrErmita/edCivicaTPSIT)
+![Issues](https://img.shields.io/github/issues/MrErmita/edCivicaTPSIT)
+![Commits](https://img.shields.io/github/commit-activity/m/MrErmita/edCivicaTPSIT)
 
 Progetto per l'educazione civica e TPSIT, sviluppato con PHP, SQL e tecnologie web.
 
@@ -25,17 +28,3 @@ Progetto per l'educazione civica e TPSIT, sviluppato con PHP, SQL e tecnologie w
 1. Clona il repository:
    ```sh
    git clone https://github.com/MrErmita/edCivicaTPSIT.git
-   ```
-2. Importa il database MySQL usando il file `database.sql` fornito.
-3. Configura le credenziali nel file `config.php`.
-4. Avvia un server locale (XAMPP o simili) e accedi al progetto via browser.
-
-## 📷 Screenshot
-*Aggiungi qui degli screenshot del progetto in azione.*
-
-## 📜 Licenza
-Questo progetto è distribuito sotto licenza MIT.
-
----
-
-Made with ❤️ by **Alessio Bragetti**
