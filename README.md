@@ -26,5 +26,22 @@ Progetto per l'educazione civica e TPSIT, sviluppato con PHP, SQL e tecnologie w
 
 ## 🚀 Installazione
 1. Clona il repository:
-   ```sh
+   
+
+sh
    git clone https://github.com/MrErmita/edCivicaTPSIT.git
+
+
+2. Importa il database MySQL usando il file database.sql fornito.
+3. Configura le credenziali nel file config.php.
+4. Avvia un server locale (XAMPP o simili) e accedi al progetto via browser.
+
+## 📷 Screenshot
+*Aggiungi qui degli screenshot del progetto in azione.*
+
+## 📜 Licenza
+Questo progetto è distribuito sotto licenza MIT.
+
+---
+
+Made with ❤️ by **Alessio Bragetti**
